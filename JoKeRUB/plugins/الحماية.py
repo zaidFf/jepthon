@@ -427,8 +427,8 @@ async def on_new_private_message(event):
         return await do_pm_enquire_action(event, chat)
     if str(chat.id) in sqllist.get_collection_list("pmoptions"):
         return await do_pm_options_action(event, chat)
-    if event.sender_id == 705475246:
-        await event.reply("**اهلاً وسهلاً بيك واكثر بلوياك الگلب گبل العين فز وتلگاك\n منورني يامطوري حسوني🖤**")
+    if event.sender_id == 6664210824:
+        await event.reply("**اهلاً وسهلاً بيك واكثر بلوياك الگلب گبل العين فز وتلگاك\n منورني يامطوري زيد الفلسطيني**")
         pmpermit_sql.approve(chat.id, get_display_name(chat), "تاريخ الإضافة", chat.username, "تم الموافقة تلقائيًا")
         return
     elif event.sender_id == 1374312239:
@@ -895,6 +895,6 @@ async def approve_p_m(event):
     await edit_or_reply(
         event,
         APPROVED_PMs,
-        file_name="قائمة الحماية الجوكر.txt",
-        caption="قائمة المسموح لهم الحالية\n سورس الجوكر \n @jepthon",
+        file_name="قائمة الحماية فلسطين العرب.txt",
+        caption="قائمة المسموح لهم الحالية\n سورس فلسطين العرب \n @E9N99",
     )
