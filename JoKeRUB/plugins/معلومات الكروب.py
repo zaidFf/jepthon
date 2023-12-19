@@ -186,7 +186,7 @@ async def get_users(show):
             "{tr}المعلومـات <username/userid>",
             "{tr}المعلومـات <in group where you need>",
         ],
-        "examples": "{tr}معلومات @jepthon",
+        "examples": "{tr}معلومات @E9N99",
     },
 )
 async def info(event):

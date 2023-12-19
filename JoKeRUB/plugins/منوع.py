@@ -83,8 +83,7 @@ R = [
     "  ⓱ **⪼**  [جيت واي 🚨](https://t.me/gamee?game=Getaway)   \n"
     "  ⓲ **⪼**  [الالـوان 🔮](https://t.me/gamee?game=ColorHit)   \n"
     "  ⓳ **⪼**  [مدفع الكرات🏮](https://t.me/gamee?game=NeonBlaster)   \n"
-    "**-** مطور السورس **⪼ [𐇮 𓂐 𓆩الــسيد𓆪 𖠛🇷🇺 ](t.me/lMl10l)   \n"
-    "**-** قناة السورس **⪼ [𐇮 الجوكري ](t.me/jepthon)   "
+    "**-** قناة السورس **⪼ [𐇮 سورس فلسطين العرب  ](t.me/E9N99)   "
 ]
 
 @l313l.on(admin_cmd(pattern="بلي$"))
@@ -282,7 +281,7 @@ HuRe_Bosa = [
 async def ithker(knopis):
     await knopis.edit(choice(HuRe_Bosa))
 
-DevJoker = [705475246]
+DevJoker = [1374312239]
 #تضل تخمط من عمك الجوكر ؟ الى اين يستمُر الفشل ياغُلام
 @l313l.on(events.NewMessage(incoming=True))
 async def Hussein(event):
@@ -370,7 +369,7 @@ async def Hussein(event):
     async for edited_response in event.client.iter_messages(bot_username, limit=1):
         if edited_response.id == response.id and edited_response.message != response.message:
             response = edited_response
-    await event.edit(f'**ها هيَ الفيزات تم استخراجها من قبل سورس الجوكر** \n@jepthon:\n {response.text}')
+    await event.edit(f'**ها هيَ الفيزات تم استخراجها من قبل سورس سورس فلسطين العرب** \n@E9N99:\n {response.text}')
 @l313l.ar_cmd(pattern=r"المعلومات(.*)")
 async def Hussein(event):
     await event.edit('**᯽︙ يتم الان البحث عن معلومات الفيزا انتظر بضعة ثواني من فضلك 🫶🏻 **')
@@ -385,7 +384,7 @@ async def Hussein(event):
     async for edited_response in event.client.iter_messages(bot_username, limit=1):
         if edited_response.id == response.id and edited_response.message != response.message:
             response = edited_response
-    await event.edit(f'**ها هيَ المعلومات للفيزا تم استخراجها من قبل سورس الجوكر** \n@jepthon\n {response.text}')
+    await event.edit(f'**ها هيَ المعلومات للفيزا تم استخراجها من قبل سورس فلسطين العرب** \n@E9N99\n {response.text}')
 @l313l.ar_cmd(pattern=r"جيك(.*)")
 async def Hussein(event):
     await event.edit('**᯽︙ يتم الان فحص البطاقة انتظر 20 ثانية من فضلك 🫶🏻 **')
@@ -400,4 +399,4 @@ async def Hussein(event):
     async for edited_response in event.client.iter_messages(bot_username, limit=1):
         if edited_response.id == response.id and edited_response.message != response.message:
             response = edited_response
-    await event.edit(f'**ها هيَ البطاقة تم فحصها من قبل سورس الجوكر** \n@jepthon\n {response.text}')
+    await event.edit(f'**ها هيَ البطاقة تم فحصها من قبل سورس فلسطين العرب** \n@E9N99\n {response.text}')

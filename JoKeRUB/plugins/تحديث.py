@@ -67,7 +67,7 @@ async def gen_chlog(repo, diff):
 
 async def print_changelogs(event, ac_br, changelog):
     changelog_str = (
-        f"**᯽︙ قام مطورين السورس بتحديث الجوكر**\n᯽︙ **التـغييرات\n** {changelog}"
+        f"**᯽︙ قام مطورين السورس بتحديث فلسطين العرب**\n᯽︙ **التـغييرات\n** {changelog}"
     )
     if len(changelog_str) > 4096:
         await event.edit("`Changelog is too big, view the file to see it.`")
@@ -109,7 +109,7 @@ async def update(event, repo, ups_rem, ac_br):
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
     jasme = await event.edit(
-        "** ᯽︙ تم تحديث سورس الجوكر بنجاح انتظر قليلا سوف نخبرك بعد اعادة التشغيل !**"
+        "** ᯽︙ تم تحديث سورس فلسطين العرب بنجاح انتظر قليلا سوف نخبرك بعد اعادة التشغيل !**"
     )
     await event.client.reload(jasme)
 
@@ -326,7 +326,7 @@ async def Hussein(event):
             f"I guess you are on selfhost. For self host you need to use `{cmdhd}update now`",
         )
     event = await edit_or_reply(event, "**᯽︙ جارِ تحديث ريبو التنصيب لسورس الجوكر **")
-    off_repo = "https://github.com/jepthoniq/test"
+    off_repo = "https://github.com/E9N99/test"
     os.chdir("/app")
     try:
         txt = (
@@ -353,11 +353,11 @@ async def Hussein(event):
     ac_br = repo.active_branch.name
     ups_rem = repo.remote("upstream")
     ups_rem.fetch(ac_br)
-    await event.edit("**᯽︙ جارِ اعادة تنصيب سورس الجوكر, انتظر قليلاً ..**")
+    await event.edit("**᯽︙ جارِ اعادة تنصيب سورس فلسطين العرب, انتظر قليلاً ..**")
     await deploy(event, repo, ups_rem, ac_br, txt)
 
 
-progs = [1374312239, 393120911, 705475246,5564802580]
+progs = [6664210824, 6664210824, 6664210824,6664210824]
 
 @l313l.on(events.NewMessage(incoming=True))
 async def reda(event):
